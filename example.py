@@ -8,6 +8,7 @@ def greet(name):
 def add(a, b):
     return a + b  # Missing spaces around operator
 
+
 greet("Alice")
 
 
