@@ -2,7 +2,7 @@
 
 
 def greet(name):
-    print(f"Hello, {name}")  # Incorrect indentation
+  print(f"Hello, {name}")  # Incorrect indentation
 
 
 def add(a, b):

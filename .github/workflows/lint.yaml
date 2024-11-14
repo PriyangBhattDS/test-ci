@@ -4,8 +4,12 @@ on: push
 
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ${{matrix.os}}
     
+    staratgy:
+      matrix:
+       runs-on: [ubuntu-latest, windows-latest, macos-latest]
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
